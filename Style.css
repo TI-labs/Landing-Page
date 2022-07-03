@@ -2,28 +2,82 @@
     display:flex;
 }
 
+header{
+
+    justify-content: center;
+    align-items: center;
+}
 body{
     margin: 0;
+    font-family:Roboto ;
 }
 
 .presentationHeader{
     flex-direction: column;
     background-color: #1F2937;
     color: white;
-    padding: 15px;
-    gap: 20px;
+    padding: 18px 10% 10% 10%;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    gap: 80px;
+    
 }
 /* description element du header*/
 .logo{
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 24px;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    color: #F9FAF8;
 }
 ul{
     list-style: none;
     margin: 0;
-    gap:10px;
+    gap:20px;
 }
 
 nav{
     margin-left: auto;
+    font-size: 18px;
+    color: #E5E7EB;
 }
+ /* placement du panneau de preentation*/
+
+ .presentation{
+    gap: 30px;   
+    align-items: stretch;
+    
+ }
+
+ .textPresentation{
+    width: 50%;
+    flex: 1 1 auto;
+    font-size: 18px;
+    color: #E5E7EB;
+ }
+
+ .placeholderPresentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(244, 244, 244, 0.4);
+    width: 50%;
+    
+    flex: 1 1 auto;
+ }
+
+ button{
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 3px 15px;
+ }
+
+ h1.titrePresentation{
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+ }
+
+ 
