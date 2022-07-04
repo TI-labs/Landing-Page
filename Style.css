@@ -188,3 +188,11 @@ nav{
     margin: 0;
     margin-top: 10px;
 }
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383a3b;
+    color: white;
+}
