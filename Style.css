@@ -152,3 +152,39 @@ nav{
     font-weight: 300;
     font-size: 30px;
  }
+ /* Création de la secton CTA*/
+
+ .CTA{
+    padding: 10% 20%;
+ }
+
+.containerCTA{
+    display: flex;
+    background-color: #3882F6;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.textCTA{
+    flex: 2;
+    color: #F9FAF8;
+    padding: 2% 5%;
+
+}
+
+.signUp1{
+    border: solid white 2px;
+    margin: 2%;
+}
+
+.titreCTA{
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.descriptionCTA{
+    margin: 0;
+    margin-top: 10px;
+}
