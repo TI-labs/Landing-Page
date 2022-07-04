@@ -59,7 +59,7 @@ nav{
     align-items: center;
     background-color: rgba(244, 244, 244, 0.4);
     width: 50%;
-    
+    text-align: center;
     flex: 1 1 auto;
  }
 
