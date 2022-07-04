@@ -1,22 +1,14 @@
-@font-face {
-    font-family: "Roboto";
-    src: url(Roboto/Roboto-Medium.ttf);
-}
-
-
-
 .presentationHeader, .Gallerie, header, .quote, .CTA, .gallerie, ul, .presentation{
     display:flex;
 }
 
 header{
-
     justify-content: center;
     align-items: center;
 }
 body{
     margin: 0;
-    font-family:Roboto ;
+    font-family: Roboto;
 }
 
 .presentationHeader{
@@ -91,26 +83,36 @@ nav{
 
  .Gallerie{
     flex-direction: column;
-    padding: 18px;
-    align-items: center;
-    padding: 3% 20% 5% 20%;
+    padding: 3% 15% 5% 15%;
+    align-items: stretch;
+ }
+ .gallerie{
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
  }
 
  .titreGallerie{
     font-size: 36px;
     font-weight: extra-bold;
     color: hsl(215, 28%, 17%);
-    margin: 30px;
+    margin-bottom: 40px ;
+    margin-top: 0;
     font-family: Roboto;
+    text-align: center;
  }
+
 .carte{
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     align-items: center;
+    
 }
+
  .cadre{
-    width:130px;
-    height: 130px;
+    width: 13vw;
+    height: 13vw;
     background-color: #E5E7EB;
     border-radius: 8px;
     border: #3882F6 solid 3px;
@@ -119,11 +121,34 @@ nav{
 
  .descriptionCarte{
     text-align: center;
-    margin: 10px;
-    color: #383a3b ;
+    width: 13vw ;
+    height: 7vw;
+    color: #383a3b;
     font-weight: 10;
+    font-size: 13px;
+    margin-top: 4px;
  }
 
- .gallerie{
-    gap: 5%;
+ 
+
+ /*Créer la section citation*/
+
+ .quote{
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 90px;
+ }
+
+ .citation{
+
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+ }
+
+ .auteur{
+    align-self: flex-end;
+    font-weight: 300;
+    font-size: 30px;
  }
